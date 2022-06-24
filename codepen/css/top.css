@@ -1,0 +1,76 @@
+.top-row {
+    height: 125px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr;
+    grid-gap: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* left column */
+.top-row > .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-row > .title img {
+    width: 80%; 
+}
+
+/* center column */
+
+.top-row > .explore-wrapper {
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-row > .explore-wrapper > .explore {
+    color: yellow;
+    font-size: 1.3em;
+}
+
+.top-row > .explore-wrapper > .actions-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-row > .explore-wrapper > .actions-wrapper > .action {
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.top-row > .explore-wrapper > .actions-wrapper > .spark {
+    color:rgb(200, 200, 200);
+}
+
+/* right column */
+
+.top-row > .boxed-content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.4em;;
+}
+
+.top-row > .boxed-content-wrapper > .box {
+    padding: 25px 40px;
+    background-color: rgb(60, 60, 60);
+    border-radius: 5px; 
+}
+
+.top-row > .boxed-content-wrapper > .box #arrow {
+    color: lightgreen;
+    font-size: 1.2em;
+}
+
+.top-row > .boxed-content-wrapper > .search {
+    font-size: 2.2rem;
+    color: #808080;
+}
+

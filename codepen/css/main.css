@@ -1,0 +1,26 @@
+.main {
+    background-color: #122335;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    grid-gap: 50px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.main > .left-column > .text-wrapper > .top-text {
+    font-size: 3.7em;
+    margin-bottom: 50px;
+}
+
+.main > .left-column > .text-wrapper > .bottom-text {
+    font-size: 3em;
+    color: rgb(150, 150, 150);
+}
+
+
+/* Right column */
+.main > .right-column img {
+    width: 100%;
+}

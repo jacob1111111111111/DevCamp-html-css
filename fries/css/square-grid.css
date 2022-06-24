@@ -5,8 +5,6 @@
 
 .squares-wrapper > .squares {
     width: 1000px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .squares-wrapper > .squares > .square {
@@ -28,7 +26,7 @@
     padding: 42px;
 }
 
-.square > .square-text-wrapper h1 {
+.square > .square-text-wrapper h1{
     display: flex;
     justify-content: center;
     align-items: center;
